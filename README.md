@@ -13,7 +13,6 @@ Preliminary Folder Structure
     ├── user                    # Upload miscelaneous working files here
     └── README.md
 
-> Use short lowercase names at least for the top-level files and folders.
 
 ### Source files
 
