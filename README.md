@@ -6,10 +6,10 @@ Preliminary Folder Structure
 ### Directory layout
 
     .
-    ├── build                   # Compiled files (alternatively `dist`)
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files 
-    ├── tools                   # Tools and utilities
+    ├── dat                     # Data files
+    ├── docs                    # Document files
+    ├── info                    # Given files and other project information
+    ├── src                     # Source files for code or structural analysis
     ├── user                    # Upload miscelaneous working files here
     └── README.md
 
@@ -17,20 +17,24 @@ Preliminary Folder Structure
 
 ### Source files
 
-The actual source files of a software project are usually stored inside the
-`src` folder. Alternatively, you can put them into the `lib` (if you're
-developing a library), or into the `app` folder (if your application's source
-files are not supposed to be compiled).
+    .
+    ├── ...
+    ├── src                  # Source files
+    │   ├── /py              # Store 
+    │   ├── /sap             # Store 
+    │   ├── /mlb             # Store 
+    │   └── ...              # etc.
+    └── ...
+
 
 ### Document files
 
     .
     ├── ...
     ├── docs                    # Document files
-    │   ├── TOC.md              # Table of contents
     │   ├── /build              # Store final submission files here
     │   ├── /static             # Store figures, images and other static files here
-    │   ├── /data               # Store data files that will be included in the submital here
+    │   ├── /scripts            # Store scripts that pertain to constructing submittals
     │   └── ...                 # etc.
     └── ...
 
@@ -38,13 +42,3 @@ files are not supposed to be compiled).
 ### Scripts
 
 ...
-
-### Tools and utilities
-
-...
-
-### Compiled files
-
-
-...
-
